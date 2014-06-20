@@ -1,0 +1,9 @@
+[submodule "minisat"]
+	path = minisat
+	url = https://github.com/jbransen/minisat.git
+[submodule "minisat-haskell-bindings"]
+	path = minisat-haskell-bindings
+	url = https://github.com/niklasso/minisat-haskell-bindings.git
+[submodule "minisat-c-bindings"]
+	path = minisat-c-bindings
+	url = https://github.com/niklasso/minisat-c-bindings.git
