@@ -2,6 +2,8 @@ name:            minisat
 version:         0.1
 build-type:      Simple
 cabal-version:   >= 1.6
+Synopsis:        A Haskell bundle of the Minisat SAT solver
+Category:        Logic
 License:         BSD3
 License-File:    LICENSE
 extra-source-files: minisat-c-bindings/minisat.h
