@@ -1,5 +1,5 @@
 name:            minisat
-version:         0.1
+version:         0.1.1
 build-type:      Simple
 cabal-version:   >= 1.6
 Synopsis:        A Haskell bundle of the Minisat SAT solver
@@ -30,7 +30,7 @@ library
                    minisat/minisat/core/Solver.cc
                    minisat/minisat/simp/SimpSolver.cc
                    minisat/minisat/utils/System.cc
-  CC-options:      -D __STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS
+  CC-options:      -D__STDC_LIMIT_MACROS -D__STDC_FORMAT_MACROS
   extra-libraries: stdc++
   hs-source-dirs:  minisat-haskell-bindings
   include-dirs:    minisat-haskell-bindings, minisat-c-bindings, minisat
