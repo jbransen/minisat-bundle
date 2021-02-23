@@ -1,5 +1,5 @@
 name:            minisat
-version:         0.1.2
+version:         0.1.3
 build-type:      Simple
 cabal-version:   >= 1.6
 Synopsis:        A Haskell bundle of the Minisat SAT solver
