@@ -19,7 +19,7 @@ source-repository head
 
 library
   default-extensions: ForeignFunctionInterface
-  build-depends:   base >= 3 && < 5, async
+  build-depends:   base >= 3 && < 5, async >= 2.0.0.0
   C-sources:       minisat-c-bindings/minisat.cc
                    minisat/minisat/core/Solver.cc
                    minisat/minisat/simp/SimpSolver.cc
