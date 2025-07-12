@@ -1,6 +1,6 @@
 cabal-version:   2.2
 name:            minisat
-version:         0.1.3
+version:         0.1.4
 build-type:      Simple
 Synopsis:        A Haskell bundle of the Minisat SAT solver
 Category:        Logic
